@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>模拟网站登录页面</title>
+	<style>
+		body{
+			background:url("images/333.jpeg");
+			padding:0px 0 0 800px;
+			color:#130101;
+			font-size: 36px;
+			text-align: center;
+			margin:5px;
+			border:50px;
+			
+		}
+		form{
+			width:248px; 
+			height:500px;
+			background-color: #F5EAE8;
+			padding:50px 40px;
+			border:1px solid #F5EAE8;
+		}
+		input{
+			display:block;
+		}
+		[type="text"],[type="password"],[type="test"]{
+			width:250px;
+			height:38px;
+			border:1px solid #CCC;
+			margin-bottom:30px;
+			font-size:16px;
+			text-indent: 50px;
+		}
+		[type="text"]{
+			background: url("images/zhanghao.jpg") no-repeat 0 -2px;
+		}
+		[type="password"]{
+			background: url("images/mima.jpg") no-repeat 0 -2px;
+		}
+		[type="test"]{
+			background:url("images/222.png") no-repeat 0 -2px;}
+		
+		[type="checkbox"]{
+			display:inline;
+			vertical-align: middle;
+		}
+		.form lable{
+			display:block;
+			font-size: 12px;
+		}
+		.reg{
+			text-align: center;
+			font-size: 12px;
+			margin-top: -18px;
+		}
+		.reg a{
+			color:#999;
+			text-decoration: none;
+		}
+		.reg a:hover{
+			color:#F00;
+			text-decoration: underline;
+		}
+		[type="submit"]{
+			width:255px;
+			height:44px;
+			margin:25px auto;
+			background-image: url("images/but.jpg");
+			border:none;
+		}
+		.related{
+			diaplay:block;
+			width:248px;
+			height:145px;
+			background-color: #F5EAE8;
+			border-top: 1px solid #DDD;
+			text-align: center;
+			font-size: 14px;
+			margin-top: 20px;
+		}
+		#pic1{
+			position :absolute;
+			width:1000px;
+			padding: 0px;
+			margin:0 auto;
+			height:20px;
+		}
+		#pic2{
+	float:left;
+			position :absolute;
+			width:1000px;
+			padding: 0px;
+			margin:0 auto;
+			height:20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="pic1"><a href="#"><img src="images/logo_school.png"></a>
+		
+	<div id="pic2"><a href="#"><img src="images/777.png">
+		</a>
+	<form action="#" method="post" name="form">
+		用户登陆
+		<input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+		<input type="password" name="password" placeholder="填写密码">
+		<input type="test" name="test" placeholder="验证码">
+		<div class="reg">
+		<br><a href="#">欢迎注册</a>	
+		<a href="#">忘记密码</a><br>
+		
+		<input type="checkbox" name="account1" value="1" id="account1"><lable for="account1">教师</lable>
+		<input type="checkbox" name="account2" value="1" id="account2"><lable for="account2">学生</lable>
+		<input type="checkbox" name="account3" value="1" id="account3"><lable for="account3">访客</lable>
+			<div class="related">
+	合作网站账号登录：		
+		<a href="#"><img src="images/weixin.png"></a>
+		<a href="#"><img src="images/qqlogin.png"></a>
+		<a href="#"><img src="images/taobao.png"></a>
+
+		<input type="submit" name="submit" value="">
+				</div>
+	</div>
+		</div>
+		</div>
+	</form>
+</body>
+</html>
